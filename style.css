@@ -17,15 +17,27 @@ body {
  	border-radius: #00707F;
  	border-style: solid;
  }
+ .subject {
+ 	overflow: auto;
+ 	max-width: 540px;
+ 	margin: 20px auto;
+ }
+.subject-label {
+	margin-bottom: 5px;
+	font-size: 18px;
+	text-align: left;
+}
 
+/* Code to Make Radio Buttons Work as Toggle Source: http://jsfiddle.net/496c9/ */
  .buttons {
- 	margin: 5px 5px 5px 0px;
+ 	margin: 0px;
  	float: left;
+ 	display: inline-block;
  }
 
  .buttons label {
  	float: left;
- 	width: 170px;
+ 	width: 80px;
  	margin: 0px;
  	background-color: #FFFFFF;
  	overflow: auto;
@@ -33,8 +45,8 @@ body {
 
  .buttons label span {
  	text-align: center;
- 	font-size: 24px;
- 	padding: 13px 0px;
+ 	font-size: 16px;
+ 	padding: 6px 0px;
  	display: block;
  }
 
@@ -58,4 +70,41 @@ body {
 
 .buttons .grey {
 	background-color: #E9EDEB;
+	border-radius: 0px 5px 5px 0px;
+}
+
+/* Styling Progress Bars. Tutorial: http://css-tricks.com/html5-progress-element/ */
+progress {
+	width: 240px;
+	height: 31px;
+	display: inline-block;
+	float: left;
+	margin-right: 0px;
+	appearance: none;
+	-webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+	background-color: #E9EDEB;
+}
+progress::-webkit-progress-value {
+	border-radius: 5px 0px 0px 5px;
+}
+
+/* Responsive CSS: For mobile devices and desktop specific styles */
+@media (min-width: 600px) {
+	.subject {
+		width: 480px;
+	}
+}
+
+@media (max-width: 320px) {
+	.subject {
+		width: 320px;
+	}
+	.buttons {
+		width: 90%;
+	}
+	.buttons label {
+		width: 30%;
+	}
 }
