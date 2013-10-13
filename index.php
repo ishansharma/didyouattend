@@ -20,56 +20,57 @@
 					<div class="subject-label">Distributed Operating Systems</div>
 					<progress max="100" value="75"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject1"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject1"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject1"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject1" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject1" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject1" value="3"><span>No Class</span></label>
 					</div>
 				</div>
 				<div class="subject">
 					<div class="subject-label">Graph Theory</div>
 					<progress max="100" value="60"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject2"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject2"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject2"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject2" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject2" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject2" value="3"><span>No Class</span></label>
 					</div>
 				</div>
 				<div class="subject">
 					<div class="subject-label">Industrial Economics</div>
 					<progress max="100" value="40"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject3"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject3"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject3"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject3" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject3" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject3" value="3"><span>No Class</span></label>
 					</div>
 				</div>
 				<div class="subject">
 					<div class="subject-label">Internet and Web Technologies</div>
 					<progress max="100" value="54"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject4"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject4"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject4"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject4" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject4" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject4" value="3"><span>No Class</span></label>
 					</div>
 				</div>
 				<div class="subject">
 					<div class="subject-label">Mobile Computing</div>
 					<progress max="100" value="60"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject5"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject5"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject5"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject5" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject5" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject5" value="3"><span>No Class</span></label>
 					</div>
 				</div>
 				<div class="subject">
 					<div class="subject-label">Software Project Management</div>
 					<progress max="100" value="67"></progress>
 					<div class="buttons">
-						<label class="green"><input type="radio" name="subject6"><span>Yes</span></label>
-						<label class="red"><input type="radio" name="subject6"><span>No</span></label>
-						<label class="grey"><input type="radio" name="subject6"><span>No Class</span></label>
+						<label class="green"><input type="radio" name="subject6" value="1"><span>Yes</span></label>
+						<label class="red"><input type="radio" name="subject6" value="2"><span>No</span></label>
+						<label class="grey"><input type="radio" name="subject6" value="3"><span>No Class</span></label>
 					</div>
 				</div>
+				<input type="hidden" name="_submitted_true_" />
 				<input type="submit" value="Save &rarr;" />
 			</form>
 		</div>
