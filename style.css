@@ -1,0 +1,61 @@
+/* 
+ * Main and Only CSS file :)
+ */
+body {
+	background-color: #FFFFFF;
+}
+ #container {
+ 	width: 100%;
+ 	max-width: 600px;
+ 	min-height: 600px;
+ 	margin: auto;
+ 	text-align: center;
+ 	font-family: 'Helvetica', 'Myriad Pro', 'Verdana', sans-serif;
+ 	background-color: #F9F9F9;
+ 	border-radius: 10px;
+ 	border-width: 1px;
+ 	border-radius: #00707F;
+ 	border-style: solid;
+ }
+
+ .buttons {
+ 	margin: 5px 5px 5px 0px;
+ 	float: left;
+ }
+
+ .buttons label {
+ 	float: left;
+ 	width: 170px;
+ 	margin: 0px;
+ 	background-color: #FFFFFF;
+ 	overflow: auto;
+ }
+
+ .buttons label span {
+ 	text-align: center;
+ 	font-size: 24px;
+ 	padding: 13px 0px;
+ 	display: block;
+ }
+
+ .buttons label input {
+ 	position: absolute;
+ 	top: -20px;
+ }
+
+ .buttons input:checked + span {
+ 	background-color: #404040;
+ 	color: #F7F7F7;
+ }
+
+.buttons .red {
+	background-color: #F44647;
+}
+
+.buttons .green {
+	background-color: #03A678;
+}
+
+.buttons .grey {
+	background-color: #E9EDEB;
+}
