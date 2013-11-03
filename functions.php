@@ -30,7 +30,7 @@
 			$sub[5] = $_POST['subject5'];
 			$sub[6] = $_POST['subject6'];
 			$perform_query = mysqli_query($mysqli, "INSERT INTO dya_data VALUES ('$current_user', '$current_date','$sub[1]', '$sub[2]', '$sub[3]', '$sub[4]', '$sub[5]', '$sub[6]')");
-			print "<br />Successfully Inserted";
+			print "<br />Successfully Done";
 		}
 	}
 
@@ -48,9 +48,6 @@
 		{
 			$data_fetched = mysqli_query($query, "SELECT * FROM dya_data WHERE user_id='$current_user'");
 			while($row = $data_fetched->fetch_array()) {
-				// print_r($row);
-				// print '<br />';
-				// Subject 1
 				if ($row['sub1'] == 1) {
 					$sub[1]++;
 					$total[1]++;
@@ -104,12 +101,6 @@
 					$total[6]++;
 				}
 			}
-			for ($i = 1; $i < 7; $i++) {
-					print $sub[$i];
-					print ' ';
-					print $total[$i];
-					print "<br />";
-				}
 		}
 	}
 ?>

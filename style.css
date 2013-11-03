@@ -73,6 +73,10 @@ body {
 	border-radius: 0px 5px 5px 0px;
 }
 
+.percentage {
+	float: right;
+}
+
 /* Styling Progress Bars. Tutorial: http://css-tricks.com/html5-progress-element/ */
 progress {
 	width: 240px;
