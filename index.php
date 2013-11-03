@@ -4,6 +4,9 @@
 	/*
 	 * Index page, this is the main page (initially only one) that user will interact with. Will contain the * UI and a little bit of PHP
 	 */
+
+	// Something to fetch the data and update the progress bars
+	
 ?>
 <head>
 	<meta charset="UTF-8">
