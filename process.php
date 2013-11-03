@@ -15,6 +15,6 @@
 	}
 
 	function process_form() {
-		// write_to_db();
+		write_to_db();
 	}
 ?>
